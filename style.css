@@ -1,0 +1,125 @@
+.navb{
+    background-color:  hsl(13, 100%, 72%);
+    background-image: url(images/bg-pattern-intro.svg);
+    height: 40rem;
+    color: white;
+     border-bottom-left-radius: 100px; ;
+}
+.content{
+    text-align: center;
+    margin: 7rem;
+}
+.bt1{
+    border-radius: 5pc;
+    margin: 2rem;
+    height: 2rem;
+    background-color:hsl(13, 100%, 72%) ;
+    border: none;
+    outline: none;
+    color: white;
+}
+.bt2{
+    border-radius: 5pc;
+    margin: 2rem;
+    height: 2rem;
+    background-color:white ;
+    border: none;
+    outline: none;
+    color:hsl(13, 100%, 72%) ;
+}
+
+
+.bt{
+   text-align: center;
+   margin-left: auto; 
+   margin-right: auto;
+   border: none;
+}
+.bt button{
+     height: 2rem;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: hsl(13, 100%, 72%); 
+    color: white;
+}
+.bt > button :hover{
+    background-color: white;
+}
+
+/* .content1 */
+.content1{
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 2rem;
+    color: hsl(208, 49%, 24%);
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    
+}
+.written{
+    margin: 2rem;
+    margin-top: 15rem;
+    padding: 2rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    font-size: 16p;
+    
+}
+.img{
+    width: 800px;
+    height: 890px;
+}
+/* content3*/
+.content3{
+    text-align: right;
+    width: 100%;
+    height: 30rem;
+    background-color:  hsl(237, 17%, 21%);
+    background-image: url(images/bg-pattern-circles.svg);
+    color: white;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+   
+}
+.info2{
+    margin: 2rem;
+   padding-top: 100px; 
+   flex-wrap:wrap ;
+}
+.info2 p{
+ margin: 2rem;
+}
+
+/* lastcon */
+.lastcon{
+    display: flex;
+    flex-direction: row;
+    color: hsl(208, 49%, 24%);
+}
+.icon{
+    width: 700px;
+    margin-left: -10rem;
+    margin-top: 2rem;
+}
+.lasttype{
+    flex-wrap: wrap;
+    margin: 10rem;
+}
+
+
+/* footer */
+.footer{
+    width: 100%;
+    background-color:hsl(240, 10%, 16%) ;
+    color:  hsl(240, 2%, 79%);
+    border-top-right-radius: 5pc;
+}
+.row{
+    margin: 2rem;
+}
